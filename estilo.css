@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #ffffff;
+    padding: 12px 0;
+    display: flex;
+    font-family: poppins;
+    margin: 0 auto;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.logo{
+    font-size: 22px;
+    color: #212529;
+}
+.menu{
+    font-size: 13px;
+    text-decoration: none;
+    color: #212529;
+    margin-left: 5px;
+    padding: 0 10px;
+
+}
+.bi{
+    color: #4D555A;
+    margin-left: 5px;
+    padding: 5px;
+
+}
+.menu:hover{
+    background-color: #cbcccd;
+    
+}
+.bi:hover{
+    background-color: #cbcccd;
+    border-radius: 30%;
+    color: white;
+}
+    
+/* 1ra sección */
+
+.hero{
+    background-color: rebeccapurple;
+}
+.acercade{
+    background-color: blue;
+
+}
+.servicios{
+    background-color: deeppink;
+
+}
+
+.resume{
+    background-color: chartreuse;
+}
+
+.portfolio{
+    background-color: darkgreen;
+}
+
+footer{
+    background-color: yellow;
+}
