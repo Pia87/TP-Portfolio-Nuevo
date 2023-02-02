@@ -4,24 +4,26 @@
     margin: 0;
     padding: 0;
 }
+body{
+    margin: 0 auto;
+}
 header{
     background-color: #ffffff;
     padding: 12px 0;
     display: flex;
     font-family: poppins;
-    margin: 0 auto;
     justify-content: center;
     justify-content: space-evenly;
     align-items: center;
 }
 
 .logo{
-    font-size: 20px;
+    font-size: 18px;
     color: #212529;
 
 }
 .menu{
-    font-size: 13px;
+    font-size: 11px;
     text-decoration: none;
     color: #212529;
     margin-left: 5px;
@@ -31,6 +33,7 @@ header{
     color: #4D555A;
     margin-left: 5px;
     padding: 5px;
+    font-size: 13px;
 
 }
 .menu:hover{
@@ -46,7 +49,7 @@ header{
 /* 1ra sección */
 
 .hero{
-    margin: 0 auto;
+    
     background-color: #06EF96;
     display: flex;
     padding: 100px 0;
@@ -56,7 +59,7 @@ header{
     color: #212529;
 }
 .presentacion{
-    margin-top: 100px;
+    margin-top:60px;
     margin-left: 150px;
     
 }
@@ -64,18 +67,25 @@ header{
     font-size: 30px;
 }
 .presentacion h1{
-    font-size: 74px;
-    letter-spacing: 5px;
+    font-size: 50px;
+    letter-spacing: 2px; 
+    line-height: 55px; 
+}
+.presentacion span{
+    color: #12865a;
+    margin-left: 3px;
 }
 .presentacion p{
     font-size: 16px;
+    margin-top: 15px;
 }
 .presentacion button{
     background-color: #212529;
     color: #ffffff;
     border: none;
-    padding:10px 20px;
+    padding:10px 25px;
     margin-top: 20px;
+    font-size: 11px;
 }
 .presentacion a{
     font-size: 12px;
@@ -101,20 +111,99 @@ background-color: #4D555A;
     color: white;
 }
 
+
+
 /* 2da sección */
 .acercade{
-    background-color: blue;
-
+   
+    padding: 60px 0;
+    background-color: #FFFFFF;
+    text-align: center;
+    font-family: poppins;
+    color: #212529;
+}
+.titulo-seccion{
+    background-color: #06EF96;
+    margin: 0 580px;
+    font-size: 12px;
+} 
+.acercade h3{
+    font-size: 26px;
+}
+.acercade h1{
+    ;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.circulo{
+    font-size: 26px;
+    color: #4D555A;
+}
+.hola{
+    font-size: 24px;
+}
+.descripcion{
+    width: 600px;
+    padding: 30px 0;
+    text-align: justify;
+}
+.contenedor span{
+    background-color: #06EF96;
+    border-radius: 50%;
+    padding: 20px 0;
+}
+.datos{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    font-size: 12px;
+    text-align: left;
 }
 
 /* 3ra sección */
 .servicios{
-    background-color: deeppink;
+    background-color:#F8F9FA;
+    font-family: poppins;
+    padding: 60px 0;
+    text-align: center;
 
 }
+.servicios h3{
+    font-size: 26px;
+}
+.contenedorconocimientos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+.diseño{
+    width: 300px;
+    padding: 40px 0;
+    font-size: 12px;
+    margin: 10px 10px;
+    text-align: justify center;
+}
+.diseño .bi{
+    font-size: 40px;
+    color: #06EF96;
+}
+
 /* 4ta sección */
 .resume{
-    background-color: chartreuse;
+    padding: 60px 0;
+    background-color: #FFFFFF;
+    text-align: center;
+    font-family: poppins;
+    color: #212529;
+}
+.resume h3{
+    font-size: 26px;
 }
 
 /* 5ta sección */
@@ -123,6 +212,3 @@ background-color: #4D555A;
     background-color: darkgreen;
 }
 
-footer{
-    background-color: yellow;
-}
