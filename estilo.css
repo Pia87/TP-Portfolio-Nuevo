@@ -203,6 +203,56 @@ background-color: #4D555A;
     font-family: poppins;
     color: #212529;
 }
+   
+
+.curriculum{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    font-size:0.8rem;
+    flex-wrap: wrap;
+    margin: 50px 0;
+
+}
+
+.educacion {
+    
+    border-left: solid 1px #F5DF4E;
+    padding-left: 10px;
+    width: 500px;
+    margin-right: 20px;
+
+}
+.experiencia{
+    
+    border-left: solid 1px #F5DF4E;
+    padding-left: 10px;
+    width: 500px;
+    margin-left: 10px;
+    
+    
+}
+.parrafo{
+margin: 15px 0 10px 0;
+padding: 10p 5px;
+}
+hr{
+    margin-top: 20px;
+    
+}
+
+.tituloed {    
+    height: 20px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+   
+}
+.tituloex{
+    height: 20px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    
+}
 .resume h3{
     font-size: 26px;
 }
@@ -215,7 +265,7 @@ background-color: #4D555A;
 
 } 
 .barra65{
-    width: 40%;
+    width: 65%;
     height: 10px;
     background-color: #F5DF4E;
     border-radius:20px;
@@ -224,7 +274,7 @@ background-color: #4D555A;
     width: 500px;
     display: flex;
     justify-content: space-between;
-    
+    font-size: 12px;
 }
 .cajaskills{
     width: 500px;
