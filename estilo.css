@@ -112,6 +112,7 @@ background-color: #4D555A;
 }
 
 
+
 /* 2da sección */
 .acercade{
    margin: 0 auto;
@@ -146,7 +147,11 @@ background-color: #4D555A;
 }
 .hola{
     font-size: 24px;
+    
 }
+
+    
+    
 .descripcion{
     width: 600px;
     padding: 30px 0;
@@ -302,8 +307,24 @@ hr{
 /* 5ta sección */
 
 .portfolio{
-    background-color: darkgreen;
+    padding: 60px 0;
+    background-color: #F8F9FA;
+    text-align: center;
+    font-family: poppins;
+    color: #212529;
+    
 }
+.galeria{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.galeria-portfolio{
+    margin: 10px;
+    width: 25%;
+}
+
 /* footer */
 footer{
     background-color: #F5DF4E;
