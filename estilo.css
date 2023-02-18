@@ -63,7 +63,7 @@ header{
 }
 .presentacion{
     margin-top:60px;
-    margin-left: 150px;
+    margin-left: 170px;
     
 }
 .presentacion h3{
@@ -100,12 +100,12 @@ header{
 }
 
 .fotocara img{
-    width: 40%;
+    width: 45%;
     border: 10px solid #FFFFFF;
     border-radius: 50%;
-    filter: sepia(50%);
+    filter: grayscale(100%);
     margin-left: 150px;
-    margin-top: 50px;    
+    margin-top: 40px;    
 }
 .presentacion button:hover{
 background-color: #4D555A;
@@ -164,6 +164,7 @@ background-color: #4D555A;
     width: 600px;
     padding: 30px 0;
     text-align: justify;
+    margin-right: 50px;
 }
 .contenedor span{
     background-color: #F5DF4E;
@@ -176,6 +177,8 @@ background-color: #4D555A;
     justify-content: space-evenly;
     font-size: 0.75rem;
     text-align: left;
+    width: 90%;
+    margin-left: 45px;
 }
 
 /* 3ra sección */
@@ -381,10 +384,19 @@ hr{
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 50px;
+    
 }
 .galeria-portfolio{
     margin: 10px;
     width: 25%;
+    
+}
+   
+.galeria :hover{
+    transform: scale(1.7);
+    transition: 1.8s;
+    
+    
 }
 
 /* footer */
