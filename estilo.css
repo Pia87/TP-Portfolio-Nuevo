@@ -82,7 +82,7 @@ header{
     font-size: 1rem;
     margin-top: 15px;
 }
-.presentacion button{
+.boton{
     background-color: #212529;
     color: #ffffff;
     border: none;
@@ -93,7 +93,7 @@ header{
 .presentacion a{
     font-size: 0.75rem;
     color: #212529; 
-    margin-left: 20px;
+    margin-right:20px ;
 }
 .presentacion .bi{
     margin-left: 5px;
@@ -113,7 +113,12 @@ background-color: #4D555A;
 .presentacion a:hover{
     color: white;
 }
-
+.flecha{
+    display: flex;
+    justify-content: center;
+    background-color: #F5DF4E;
+    font-size: 1.5rem;
+}
 
 
 /* 2da sección */
@@ -131,7 +136,7 @@ background-color: #4D555A;
     font-size: 0.75rem;
 } 
 .acercade h3{
-    font-size: 1,6rem;
+    font-size: 1.6rem;
     margin-top: 5px;
     
 }
@@ -241,8 +246,12 @@ background-color: #4D555A;
     padding-left: 10px;
     width: 500px;
     margin-left: 10px;
-    
-    
+}
+.parrafo h4 {
+    margin-bottom: 10px;
+}
+.parrafo h5{
+    margin-bottom: 10px;
 }
 .parrafo{
 margin: 15px 0 10px 0;
@@ -285,6 +294,36 @@ hr{
     background-color: #F5DF4E;
     border-radius:20px;
 }
+.barra70{
+    width: 70%;
+    height: 8px;
+    background-color: #F5DF4E;
+    border-radius:20px;
+}
+.barra95{
+    width: 95%;
+    height: 8px;
+    background-color: #F5DF4E;
+    border-radius:20px;
+}
+.barra60{
+    width: 60%;
+    height: 8px;
+    background-color: #F5DF4E;
+    border-radius:20px;
+}
+.barra80{
+    width: 80%;
+    height: 8px;
+    background-color: #F5DF4E;
+    border-radius:20px;
+}
+.barra50{
+    width: 50%;
+    height: 8px;
+    background-color: #F5DF4E;
+    border-radius:20px;
+}
 .webdesign{
     width: 500px;
     display: flex;
@@ -310,10 +349,20 @@ hr{
     margin-left: 150px;
     font-size: 1.3rem;
 }
+.cv{
+    padding: 7px 20px;
+    font-family: poppins;
+    font-size: 0.75rem;
+    background-color: #FFFFFF;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    border: 1px solid #212529;
     
-
+}
+.cv:hover{
+    transform: scale(0.9);
+}
     
-
 
 /* 5ta sección */
 
@@ -380,25 +429,29 @@ input{
     padding: 30px 0;
 }
 .enviar{
-    margin-top: 20px;
+    margin-top: 30px;
     width: 130px;
     background-color: #212529;
     border: none;
     color:#FFFFFF ;
     padding:10px 20px;
     text-align:center;
+    font-size: 0.8rem;
    
 }
 
-.enviar .bi{
+.enviar .i{
     margin-left: 5px;
-    font-size: 1.1rem;
     text-align: center;
     
 }
+.enviar:hover{
+    font-size: 0.9rem;
+}
+
 .contacto p{
-    margin-top: 25px;
-    font-size: 0.75rem;
+    margin-top: 30px;
+    font-size: 0.85rem;
 }
 .iconos-footer{
     color: #4D555A;
@@ -406,7 +459,14 @@ input{
 }
 .iconos-footer .bi{
     margin-right: 10px;
+     color: #4D555A;
+    font-size: 1.1rem;
 }
 .contacto span{
     font-size: 0.75rem;
+}
+.iconos-footer .bi:hover{
+   
+   
+    color: white;
 }
